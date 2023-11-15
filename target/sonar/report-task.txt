@@ -1,0 +1,6 @@
+projectKey=com.create.user:create-user
+serverUrl=https://sonarqube.banesco.do:9000
+serverVersion=8.5.1.38104
+dashboardUrl=https://sonarqube.banesco.do:9000/dashboard?id=com.create.user%3Acreate-user
+ceTaskId=AYN9Drq3L1DLnOrAROKJ
+ceTaskUrl=https://sonarqube.banesco.do:9000/api/ce/task?id=AYN9Drq3L1DLnOrAROKJ

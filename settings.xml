@@ -1,0 +1,27 @@
+<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 http://maven.apache.org/xsd/settings-1.0.0.xsd">
+    <pluginGroups>
+        <pluginGroup>org.sonarsource.scanner.maven</pluginGroup>
+    </pluginGroups>
+    <profiles>
+
+        <profile>
+            <id>sonar</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <properties>
+                <!-- Optional URL to server. Default value is http://localhost:9000 -->
+                <sonar.host.url>
+                    https://sonarqube.banesco.do:9000/
+                </sonar.host.url>
+                <sonar.login>7fab32db83c4fe36bbd8abef5582fa94033b38c8</sonar.login>
+                <!--sonar.login>d83acf9054c2cbb2bb7bf500167c25a06bc316a0</sonar.login-->
+                <sonar.projectKey>create-user</sonar.projectKey>
+                <sonar.sources>https://mvnrepository.com/artifact/org.sonarsource.scanner.maven/sonar-maven-plugin</sonar.sources>
+            </properties>
+        </profile>
+
+    </profiles>
+
+</settings>

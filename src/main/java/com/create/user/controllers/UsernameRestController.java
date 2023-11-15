@@ -44,7 +44,6 @@ public class UsernameRestController {
 
         return usernameServices.save(usuarioActual);
 
-
     }
 
     @DeleteMapping("/delete/{id}")

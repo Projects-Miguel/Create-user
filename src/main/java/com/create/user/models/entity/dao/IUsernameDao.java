@@ -1,4 +1,4 @@
-package com.create.user.models.dao;
+package com.create.user.models.entity.dao;
 
 import com.create.user.models.entity.Phone;
 import com.create.user.models.entity.Username;

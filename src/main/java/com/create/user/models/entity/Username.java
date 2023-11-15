@@ -23,7 +23,6 @@ import java.util.List;
 @Data
 public class Username implements Serializable {
 
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;

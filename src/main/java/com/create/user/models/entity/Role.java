@@ -22,6 +22,4 @@ public class Role implements Serializable {
     private String nombre;
 
 
-
-
 }

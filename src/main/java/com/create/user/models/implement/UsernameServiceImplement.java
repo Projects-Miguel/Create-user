@@ -1,6 +1,6 @@
 package com.create.user.models.implement;
 
-import com.create.user.models.dao.IUsernameDao;
+import com.create.user.models.entity.dao.IUsernameDao;
 import com.create.user.models.entity.Phone;
 import com.create.user.models.entity.Username;
 import com.create.user.models.services.IUsernameServices;
